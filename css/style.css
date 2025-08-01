@@ -70,7 +70,12 @@
       
 }
 
-.call-whatsapp-email{display: flex;}
+.call-whatsapp-email{
+      display: flex;
+      justify-content: center;
+}
+
+
 .call {
       background-color: rgb(41, 141, 71);
       padding: 10px 30px;
