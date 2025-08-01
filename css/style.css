@@ -4,9 +4,8 @@
       box-sizing: border-box;
 }
 
-body{ 
-      font-family: "Inika", serif;
-}
+body{font-family: "Poppins", sans-serif;}
+      
       
 .mobile-container {
       max-width: 430px;
@@ -17,7 +16,7 @@ body{
       box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.75);
       -webkit-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.75);
       -moz-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.75);
-        font-family: "Inika", serif;
+      
 }
 
 
@@ -64,63 +63,48 @@ body{
 }
 .section-2{
       width: 100%;
-      margin-top: 15px;
+      margin-top: 10px;
       border-radius: 20px;
       background-color: rgb(215, 219, 219);
       padding: 15px;
       
 }
 
-.call-whatsapp-email{
-      /* display: flex; */
-      /* justify-content: center; */
+.contact-buttons{
+      display: inline-flex;
+      justify-content: space-between;
       text-align: center;
-      margin-top: 15px;
+      align-items: start;
+      margin-top: 5px;
+      gap: 5px;
 }
 
 
-.call {
+.contact-button {
       background-color: rgb(41, 141, 71);
-      padding: 10px 20px;
-      display: inline;
+      padding: 10px 25px;
+      display: inline-flex;
       align-items: center;
       border-radius: 8px;
       color: #fff;
-      gap: 5px; 
+      gap: 8px; 
       margin-bottom: 5px; 
+      font-size: 12px;
       
            
 }
-
-.whatsapp{
-      background-color: rgb(41, 141, 71);
-      padding: 10px 20px;
-      display: inline;
-      align-items: center;
-      border-radius: 8px;
-      color: #fff;
-      gap: 5px; 
-      margin-bottom: 5px; 
-      margin: 0 5px;
-      }
-
-
-                
-.email {
+               
+.contact-button.email {
       border: 0.5px solid;
       background-color: rgb(250, 252, 250);
-      padding: 10px 20px;
-      display: inline;
-      align-items:center ;
-      border-radius: 8px;
-      color: #0f0606;
-      gap: 5px;
-      ;
+      color: #000;
       
 }
 
+
+
 .section-2 i{
-      font-size: 15px;
+      font-size: 20px;
 }
 
 
@@ -131,16 +115,16 @@ body{
       display: block;
       text-align: center;
       gap: 5px ;
-      margin-top: 25px;
+      margin-top: 10px;
       background-color: #4ca9c5;
       color: #fff;
-      font-size: 15px;
+      font-size: 12px;
 }
        
         
 .section-3{
       border: 0.5px solid black;
-      width: 100% auto;
+      width: 100% ;
       max-width: 500px;
       height:auto;
       margin-top: 10px;
@@ -166,7 +150,7 @@ body{
 
 .section-4 {
       border: 0.5px solid black;
-      width: 100% auto;
+      width: 100% ;
       max-width: 500px;
       height:auto;
       margin-top: 10px;
@@ -234,9 +218,7 @@ body{
 }
       
 .section-6{
-      width: 100px auto;
-      max-width: 500px;
-      min-height:200px auto ;
+      width: 100%;
       margin-top: 10px;
       border-radius: 20px;
       border-bottom-left-radius: 0;
@@ -255,7 +237,7 @@ body{
       display: flex;
 }
       
-.facebook{
+.social-link{
       padding:8px 20px;
       border-radius: 8px;
       display: inline-flex;
@@ -265,21 +247,20 @@ body{
       margin-left: 6px;
       background-color: #9FB3DF;
       color: #070606; 
-      font-weight: bold;
       gap: 5px;
 
 } 
 
 .instagram{
-      padding: 8px 20px;
+      padding: 8px 25px;
       border-radius: 8px;
       display: flex;
       justify-content: center;
       align-items: center;
+      font-size: 15px;
       margin-top: 10px;
       background-color: #9FB3DF;
       color: #070606; 
-      font-weight: bold;
       gap: 5px;
 }
 
@@ -296,3 +277,14 @@ body{
       border-bottom-left-radius: 15px;
       border-bottom-right-radius: 15px;
 }      
+
+
+@media all and (max-width: 400px) {
+      .contact-buttons { font-size: 14px;
+            flex-wrap: wrap;
+            justify-content: center;
+      }
+      .email {
+            
+        }
+}
