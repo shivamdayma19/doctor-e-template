@@ -4,7 +4,7 @@
       box-sizing: border-box;
 }
 
-.body{ 
+body{ 
       font-family: "Inika", serif;
 }
       
@@ -15,8 +15,9 @@
       background-color: rgb(205, 229, 253);
       padding: 15px;
       box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.75);
+      -webkit-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.75);
+        font-family: "Inika", serif;
 }
 
 
@@ -63,7 +64,7 @@
 }
 .section-2{
       width: 100%;
-      margin-top: 5px;
+      margin-top: 15px;
       border-radius: 20px;
       background-color: rgb(215, 219, 219);
       padding: 15px;
@@ -71,15 +72,17 @@
 }
 
 .call-whatsapp-email{
-      display: flex;
-      justify-content: center;
+      /* display: flex; */
+      /* justify-content: center; */
+      text-align: center;
+      margin-top: 15px;
 }
 
 
 .call {
       background-color: rgb(41, 141, 71);
-      padding: 10px 30px;
-      display: inline-flex;
+      padding: 10px 20px;
+      display: inline;
       align-items: center;
       border-radius: 8px;
       color: #fff;
@@ -92,7 +95,7 @@
 .whatsapp{
       background-color: rgb(41, 141, 71);
       padding: 10px 20px;
-      display: inline-flex;
+      display: inline;
       align-items: center;
       border-radius: 8px;
       color: #fff;
@@ -106,8 +109,8 @@
 .email {
       border: 0.5px solid;
       background-color: rgb(250, 252, 250);
-      padding: 10px 25px;
-      display: inline-flex;
+      padding: 10px 20px;
+      display: inline;
       align-items:center ;
       border-radius: 8px;
       color: #0f0606;
@@ -128,7 +131,7 @@
       display: block;
       text-align: center;
       gap: 5px ;
-      margin-top: 5px;
+      margin-top: 25px;
       background-color: #4ca9c5;
       color: #fff;
       font-size: 15px;
@@ -248,7 +251,9 @@
 
 }
 
-.facebook-inline{display: flex;}
+.facebook-inline{
+      display: flex;
+}
       
 .facebook{
       padding:8px 20px;
