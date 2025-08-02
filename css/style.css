@@ -65,7 +65,7 @@ body{
 }
 
 .contact-buttons {
-      display: inline-flex;
+      display: flex;
       gap: 5px;
       margin-top: 5px;
       
@@ -74,13 +74,13 @@ body{
 
 .contact-button {
     background-color: rgb(41, 141, 71);
-    width: 97px;
-    height: 35px;
+    padding: 8px 0;
+    width: calc(33% - 2px);
     border-radius: 8px;
     color: #fff;
-    gap: 8px;
     margin-bottom: 5px;
     font-size: 12px;
+    gap: 5px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -99,8 +99,8 @@ body{
 .section-2 i{
       font-size: 20px;
       display: inline-flex;
-      align-items: center;
-      justify-content: center;
+      
+     
       
 }
 
