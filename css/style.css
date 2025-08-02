@@ -65,25 +65,25 @@ body{
 }
 
 .contact-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      row-gap: 5px;
-      column-gap: 8px;
+      display: inline-flex;
+      
+      gap: 5px;
       margin-top: 5px;
 }
 
 
 .contact-button {
-      background-color: rgb(41, 141, 71);
-      padding: 8px 15px;
-      display: inline-flex;
-      align-items: center;
-      border-radius: 8px;
-      color: #fff;
-      gap: 8px; 
-      margin-bottom: 5px; 
-      font-size: 12px;
+    background-color: rgb(41, 141, 71);
+    width: 110px;
+    height: 35px;
+    border-radius: 8px;
+    color: #fff;
+    gap: 8px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
       
            
 }
@@ -98,6 +98,10 @@ body{
 
 .section-2 i{
       font-size: 20px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      
 }
 
 .book-slot{
@@ -273,7 +277,7 @@ body{
 }      
 
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .contact-buttons {
     font-size: 14px;
     flex-wrap: wrap;
@@ -290,4 +294,4 @@ body{
     padding: 6px 10px;
     font-size: 11px;
   }
-}
+} */
