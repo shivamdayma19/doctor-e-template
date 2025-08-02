@@ -4,7 +4,9 @@
       box-sizing: border-box;
 }
 
-body{font-family: "Poppins", sans-serif;}
+body{
+      font-family: "Poppins", sans-serif;
+}
       
       
 .mobile-container {
@@ -15,8 +17,7 @@ body{font-family: "Poppins", sans-serif;}
       padding: 15px;
       box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.75);
       -webkit-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.75);
-      -moz-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.75);
-      
+      -moz-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.75);     
 }
 
 
@@ -26,15 +27,13 @@ body{font-family: "Poppins", sans-serif;}
       background-color: #0081a7;
       border-radius: 15px;
       text-align: center;
-      
-     }
+}
 
 .section img{ 
       width: 120px;
       height: 120px;
       border-radius: 100%;
-      margin-top: 20px; 
-         
+      margin-top: 20px;         
 }
 
  
@@ -55,20 +54,14 @@ body{font-family: "Poppins", sans-serif;}
       color: #dbdada;
       margin-top: 20px;
       padding-bottom: 20px;
-      font-size: small;
-      
-      
-      
-           
+      font-size: small;          
 }
 .section-2{
       width: 100%;
       margin-top: 10px;
       border-radius: 20px;
       background-color: rgb(215, 219, 219);
-      padding: 15px;
-      
-      
+      padding: 15px;     
 }
 
 .contact-buttons{
@@ -80,7 +73,7 @@ body{font-family: "Poppins", sans-serif;}
 
 .contact-button {
       background-color: rgb(41, 141, 71);
-      padding: 8px 18px;
+      padding: 8px 15px;
       display: inline-flex;
       align-items: center;
       border-radius: 8px;
@@ -95,8 +88,7 @@ body{font-family: "Poppins", sans-serif;}
 .contact-button.email {
       border: 0.5px solid;
       background-color: rgb(250, 252, 250);
-      color: #000;
-      
+      color: #000;     
 }
 
 
@@ -104,8 +96,6 @@ body{font-family: "Poppins", sans-serif;}
 .section-2 i{
       font-size: 20px;
 }
-
-
 
 .book-slot{
       padding: 10px;
