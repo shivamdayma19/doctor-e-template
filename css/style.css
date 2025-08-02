@@ -80,7 +80,7 @@ body{font-family: "Poppins", sans-serif;}
 
 .contact-button {
       background-color: rgb(41, 141, 71);
-      padding: 10px 19px;
+      padding: 8px 18px;
       display: inline-flex;
       align-items: center;
       border-radius: 8px;
@@ -108,10 +108,10 @@ body{font-family: "Poppins", sans-serif;}
 
 
 .book-slot{
-      padding: 10px 100px;
+      padding: 10px;
       border-radius: 8px;
-      display: inline-flex;
-      text-align: center;
+      display: flex;
+      justify-content: center;
       gap: 5px ;
       margin-top: 10px;
       background-color: #4ca9c5;
