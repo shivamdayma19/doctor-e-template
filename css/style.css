@@ -74,7 +74,7 @@ body{
 
 .contact-button {
     background-color: rgb(41, 141, 71);
-    padding: 8px 0;
+    padding: 8px 0px;
     width: calc(33% - 2px);
     border-radius: 8px;
     color: #fff;
@@ -96,11 +96,19 @@ body{
 
 
 
-.section-2 i{
+.section-2 i {
       font-size: 20px;
-      display: inline-flex;
+      ;
       
-     
+}
+
+.section-2 a {
+      text-decoration: none;
+      color: #fff;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px
       
 }
 
@@ -267,8 +275,19 @@ body{
 
 .section-6 i {
       font-size: 25px;
-      text-align: center;
-}      
+      
+}   
+
+.instagram a {
+      text-decoration: none;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+}
+
+
 
 .footer{
       color: #fff;
