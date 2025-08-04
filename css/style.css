@@ -54,7 +54,9 @@ body{
       color: #dbdada;
       margin-top: 20px;
       padding-bottom: 20px;
-      font-size: small;          
+      font-size: small;   
+      display: flex;
+      justify-content: space-around;      
 }
 .section-2{
       width: 100%;
