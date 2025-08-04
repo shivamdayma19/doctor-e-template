@@ -108,7 +108,8 @@ body{
       display: inline-flex;
       justify-content: center;
       align-items: center;
-      gap: 5px
+      gap: 5px;
+      color: inherit;
       
 }
 
